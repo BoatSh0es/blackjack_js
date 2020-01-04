@@ -154,7 +154,7 @@ function showStatus()
   
   updateScores();
   
-  textArea.innerText = 'Dealer has:\n' + dealerCardString + '(score: ' + dealerScore + ')\n\n' + 'You have:\n' + playerCardString + '(score: ' + playerScore + ')\n\n';
+  textArea.innerText = 'Dealer Has:\n' + dealerCardString + '(Score: ' + dealerScore + ')\n\n' + 'You Have:\n' + playerCardString + '(Score: ' + playerScore + ')\n\n';
                         
   if(gameOver){
     if(playerWon)
